@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: rgb(238, 236, 236);
 }
 
 .header {
@@ -200,7 +200,7 @@ li a hr {
 }
 
 .two-list {
-    margin-bottom: 10rem;
+    margin-bottom: 3rem;
 }
 
 .two-list ul {
@@ -218,6 +218,472 @@ li a hr {
 
 .two-list li a:hover {
     border-bottom: 4px solid rgb(255, 218, 6);
-    color: rgb(255, 218, 6);
+    color: #ffda06;
 }
 
+.f-product {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 6rem;
+}
+
+.f-product1, .f-product2, .f-product3, .f-product4, .f-product5 {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.486);
+    width: 17rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tp-text {
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+.tp-text-2 {
+    text-align: center;
+    margin-bottom: 1.65rem;
+}
+
+.tp-text-3 {
+    text-align: center;
+    margin-bottom: 0.9rem;
+}
+
+.tp-text-4 {
+    text-align: center;
+    margin-bottom: 0.54rem;
+}
+
+.f-product1 img, .f-product2 img, .f-product3 img, .f-product4 img, .f-product5 img {
+    mix-blend-mode: multiply;
+    width: 9.5rem;
+    margin: 1rem;
+}
+
+#product1, #product4 {
+    color: #ffda06;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#product2, #product3, #product5 {
+    color: #ffda06;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.three {
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.three img {
+    width: 94.95rem;
+    height: 22rem;
+}
+
+.three-text h1 {
+    text-align: center;
+    position: absolute;
+    top: 5.5rem;
+    left: 43.5rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.three-text p {
+    text-align: center;
+    position: absolute;
+    top: 9.1rem;
+    left: 21rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.three-button button {
+    position: absolute;
+    top: 12.5rem;
+    left: 44.7rem;
+    padding: 0.4rem 0.5rem;
+    height: 2rem;
+    border: 3px solid white;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.four {
+    position: relative;
+}
+
+.text-four {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 3.5rem;
+}
+
+.vertical1 {
+    border-left: 4px solid rgb(255, 218, 6);
+    height: 2.7rem;
+    position: absolute;
+    top: 0;
+    left: 31.5rem;
+}
+
+.vertical2 {
+    border-left: 4px solid rgb(255, 218, 6);
+    height: 2.7rem;
+    position: absolute;
+    top: 0;
+    right: 31.5rem;
+}
+
+.four-product {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7rem;
+}
+
+.four-product1, .four-product2, .four-product3, .four-product4, .four-product5 {
+    background-color: rgb(240, 240, 240);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.486);
+    width: 17rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+ .four-product2 img, .four-product5 img {
+    mix-blend-mode: multiply;
+    width: 9.5rem;
+    margin: 1rem;
+}
+
+.four-product1 img {
+    mix-blend-mode: multiply;
+    width: 12.5rem;
+    margin: 1rem;
+}
+
+.four-product3 img {
+    mix-blend-mode: multiply;
+    width: 14.5rem;
+    margin: 1rem;
+}
+
+.four-product4 img {
+    mix-blend-mode: multiply;
+    width: 7rem;
+    margin: 1rem;
+}
+
+.f-tp-text-1 {
+    margin-top: 1.2rem;
+    text-align: center;
+}
+
+.f-tp-text {
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+.f-tp-text-2 {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.f-tp-text-3 {
+    text-align: center;
+}
+
+.f-tp-text-4 {
+    text-align: center;
+    margin-bottom: 0.54rem;
+}
+
+#f-product1 {
+    color: #ffda06;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+ #f-product4 {
+    color: #ffda06;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.55rem;
+}
+
+#f-product2, #f-product3 {
+    color: #ffda06;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+#f-product5 {
+    color: #ffda06;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+}
+
+.five {
+    position: relative;
+}
+
+.five img {
+    width: 94.95rem;
+    height: 24rem;
+}
+
+.five-text h1 {
+    position: absolute;
+    top: 4.5rem;
+    left: 41rem;
+    color: white;
+}
+
+.five-text p {
+    position: absolute;
+    top: 7rem;
+    left: 17rem;
+    text-align: center;
+    color: white;
+}
+
+.five-main {
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    display: flex;
+    width: 69rem;
+    position: absolute;
+    top: 11rem;
+    left: 13rem;
+}
+
+.five-main img {
+    width: 25rem;
+    mix-blend-mode: multiply;
+    margin-left: 0.5rem;
+}
+
+.five-main-text h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.five-main-text p {
+    text-align: center;
+}
+
+.five-button button {
+    height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 16rem;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.five-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+
+.days, .hours, .mins, .secs {
+    border: 1px solid #cf4c4c;
+    background-color: #cf4c4c;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 5.5rem;
+}
+
+.days h1, .hours h1, .mins h1, .secs h1 {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+.days hr, .hours hr, .mins hr, .secs hr {
+    border: 2px solid white;
+    width: 1.1rem;
+    margin-top: 0.3rem;
+    margin-left: 1.89rem;
+}
+
+.days p, .hours p, .mins p, .secs p {
+    color: white;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.six {
+    margin-top: 17rem;
+    position: relative;
+    margin-bottom: 7rem;
+}
+
+.six-text h1 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.six-text p {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.six-vertical1 {
+    border-left: 4px solid rgb(255, 218, 6);
+    height: 2.7rem;
+    position: absolute;
+    top: 0;
+    left: 34.5rem;
+}
+
+.six-vertical2 {
+    border-left: 4px solid rgb(255, 218, 6);
+    height: 2.7rem;
+    position: absolute;
+    top: 0;
+    right: 34.5rem;
+}
+
+.blog1, .blog2 {
+    margin-top: 5rem;
+    margin-left: 7.5rem;
+    position: relative;
+    background-color: rgb(192, 190, 188);
+    height: 20rem;
+    width: 80rem;
+}
+
+.blog1 img {
+    height: 20rem;
+    width: 35rem;
+}
+
+.blog1-text {
+    position: absolute;
+    top: 1.5rem;
+    left: 32rem;
+    background-color: white;
+    width: 46rem;
+    height: 17rem;
+}
+
+.blog1-text h1 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.blog1-text p {
+    text-align: justify;
+    padding: 0 4rem 0.5rem 2rem;
+}
+
+.blog1-text button {
+    height: 2.5rem;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #cf4c4c;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    color: white;
+    border: none;
+}
+
+.blog2 img {
+    height: 20rem;
+    width: 35rem;
+    margin-left: 45rem;
+}
+
+.blog2-text {
+    position: absolute;
+    top: 1.5rem;
+    right: 32rem;
+    background-color: white;
+    width: 46rem;
+    height: 17rem;
+}
+
+.blog2-text h1 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.blog2-text p {
+    text-align: justify;
+    padding: 0 4rem 0.5rem 2rem;
+}
+
+.blog2-text button {
+    height: 2.5rem;
+    padding: 0.8rem 2rem;
+    border-radius: 0.8rem;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.seven {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sev, .check, .dis {
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    border: 4px solid #ffda06;
+    border-radius: 20rem 20rem 20rem 20rem;
+    width: 5.5rem;
+    margin-left: 8.5rem;
+}
+
+.delivery hr, .checkout hr, .discount hr {
+    border: 2px solid #ffda06;
+    width: 10.1rem;
+    margin-top: 0.3rem;
+    margin-left: 6rem;
+}
+
+.sev img, .check img, .dis img {
+    mix-blend-mode: multiply;
+    margin-left: 0.3rem;
+    width: 4.5rem;
+}
+
+.delivery h1, .checkout h1, .discount h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.delivery p, .checkout p, .discount p {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}

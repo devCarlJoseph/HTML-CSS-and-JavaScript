@@ -361,7 +361,7 @@ li a hr {
     margin-bottom: 0.25rem;
 }
 
-.sofa {
+.sofa-text {
     margin-left: 2rem;
     margin-bottom: 2rem;
 }
@@ -588,4 +588,9 @@ li a hr {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 0.25rem;
+}
+
+.lamp-text {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
 }

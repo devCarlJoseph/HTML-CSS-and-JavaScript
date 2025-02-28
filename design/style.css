@@ -104,6 +104,10 @@ li a hr {
     background-color: rgba(62, 69, 70, 0.281);
     font-weight: lighter;
     border-radius: 1rem;
+}
+
+.button1 a {
+    text-decoration: none;
     color: white;
 }
 
@@ -180,7 +184,7 @@ li a hr {
 .text-two h1 {
     text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .vertical1 {
@@ -224,58 +228,111 @@ li a hr {
 .f-product {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 6rem;
+    align-items: center;
+    margin-bottom: 8rem;
 }
 
-.f-product1, .f-product2, .f-product3, .f-product4, .f-product5 {
-    background-color: rgb(240, 240, 240);
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.486);
+.f-product1, 
+.f-product2,
+.f-product3,
+.f-product4,
+.f-product5 {
+    background-color: #c7c7c7;
+    box-shadow: 1px 1px 10px black;
     width: 17rem;
-    height: 20rem;
+    height: 25rem;
     display: flex;
+    border-radius: 0.5rem;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-.tp-text {
-    text-align: center;
-    margin-bottom: 1.4rem;
+.f-product-img, 
+.f-product2-img,
+.f-product3-img,
+.f-product4-img,
+.f-product5-img {
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: 15rem;
 }
 
-.tp-text-2 {
-    text-align: center;
-    margin-bottom: 1.65rem;
-}
-
-.tp-text-3 {
-    text-align: center;
-    margin-bottom: 0.9rem;
-}
-
-.tp-text-4 {
-    text-align: center;
-    margin-bottom: 0.54rem;
-}
-
-.f-product1 img, .f-product2 img, .f-product3 img, .f-product4 img, .f-product5 img {
+.f-product-img img,
+.f-product2-img img,
+.f-product3-img img,
+.f-product4-img img,
+.f-product5-img img {
     mix-blend-mode: multiply;
-    width: 9.5rem;
-    margin: 1rem;
+    margin: 0.5rem 1.2rem;
+    width: 12rem;
+    height: 14rem;
 }
 
-#product1, #product4 {
-    color: #ffda06;
-    font-weight: bold;
-    font-size: 1.2rem;
+.f-product-text, 
+.f-product2-text,
+.f-product3-text,
+.f-product4-text,
+.f-product5-text {
+    text-align: center;
 }
 
-#product2, #product3, #product5 {
-    color: #ffda06;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 0.25rem;
+.f-product-text h3, 
+.f-product2-text h3,
+.f-product3-text h3,
+.f-product4-text h3,
+.f-product5-text h3 {
+    font-size: 13px;
 }
+
+.f-product-text button, 
+.f-product2-text button,
+.f-product3-text button,
+.f-product4-text button,
+.f-product5-text button {
+    margin-top: 0.5rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    background: #ffda06;
+    border: 0.2px solid black;
+    color: white;
+}
+
+.f-product-text button:hover, 
+.f-product2-text button:hover,
+.f-product3-text button:hover,
+.f-product4-text button:hover,
+.f-product5-text button:hover {
+    background: #969696;
+    cursor: pointer;
+}
+
+.checkbox, .scheckbox, .tcheckbox, .fcheckbox, .ftcheckbox {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.checkb, .scheckb, .tcheckb, .fcheckb, .ftcheckb {
+    display: block;
+    background-color: #ddd9d9;
+    border-radius: 1rem;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.checkb:active, 
+.scheckb:active, 
+.tcheckb:active, 
+.fcheckb:active, 
+.ftcheckb:active {
+    background-color: #ffda06;
+}
+
 
 .three {
     position: relative;

@@ -325,11 +325,11 @@ li a hr {
     cursor: pointer;
 }
 
-.checkb:active, 
-.scheckb:active, 
-.tcheckb:active, 
-.fcheckb:active, 
-.ftcheckb:active {
+.checkb.active, 
+.scheckb.active, 
+.tcheckb.active, 
+.fcheckb.active, 
+.ftcheckb.active {
     background-color: #ffda06;
 }
 
@@ -404,96 +404,64 @@ li a hr {
 .four-product {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 7rem;
+    align-items: center;
+    margin-bottom: 8rem;
 }
 
-.four-product1, .four-product2, .four-product3, .four-product4, .four-product5 {
-    background-color: rgb(240, 240, 240);
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.486);
+.four-product1, 
+.four-product2,
+.four-product3,
+.four-product4,
+.four-product5 {
+    background-color: #c7c7c7;
+    box-shadow: 1px 1px 10px black;
     width: 17rem;
-    height: 20rem;
+    height: 22rem;
     display: flex;
+    border-radius: 0.5rem;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
+.four1-img, 
+.four2-img,
+.four3-img,
+.four4-img,
+.four5-img {
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: 15rem;
+}
 
-
- .four-product2 img, .four-product5 img {
+.four1-img img, 
+.four2-img img,
+.four3-img img,
+.four4-img img,
+.four5-img img{
     mix-blend-mode: multiply;
-    width: 9.5rem;
-    margin: 1rem;
+    margin: 0.5rem 1.2rem;
+    width: 12rem;
+    height: 14rem;
 }
 
-.four-product1 img {
-    mix-blend-mode: multiply;
-    width: 12.5rem;
-    margin: 1rem;
-}
-
-.four-product3 img {
-    mix-blend-mode: multiply;
-    width: 14.5rem;
-    margin: 1rem;
-}
-
-.four-product4 img {
-    mix-blend-mode: multiply;
-    width: 7rem;
-    margin: 1rem;
-}
-
-.f-tp-text-1 {
-    margin-top: 1.2rem;
-    text-align: center;
-}
-
-.f-tp-text {
-    text-align: center;
-    margin-bottom: 1.4rem;
-}
-
-.f-tp-text-2 {
-    text-align: center;
-    padding-bottom: 4rem;
-}
-
-.f-tp-text-3 {
-    text-align: center;
-}
-
+.f-tp-text, 
+.f-tp-text-1,
+.f-tp-text-2,
+.f-tp-text-3,
 .f-tp-text-4 {
     text-align: center;
-    margin-bottom: 0.54rem;
+    margin-top: 1rem;
 }
 
-#f-product1 {
+.f-tp-text h3, 
+.f-tp-text-1 h3,
+.f-tp-text-2 h3,
+.f-tp-text-3 h3,
+.f-tp-text-4 h3{
     color: #ffda06;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 1.5rem;
-}
-
- #f-product4 {
-    color: #ffda06;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 0.55rem;
-}
-
-#f-product2, #f-product3 {
-    color: #ffda06;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 0.25rem;
-}
-
-#f-product5 {
-    color: #ffda06;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-bottom: 0.7rem;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .five {

@@ -136,3 +136,116 @@ li a hr {
     top: 5.5rem;
     left: 25.8rem;
 }
+
+.chairs h1,
+.sofas h1,
+.lamps h1,
+.decors h1 {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.m-chair,
+.m-sofa,
+.m-lamp,
+.m-decor {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.main-chair, 
+.main-sofa,
+.main-lamp,
+.main-decor {
+    background-color: #c7c7c7;
+    box-shadow: 1px 1px 10px black;
+    width: 17rem;
+    height: 25rem;
+    display: flex;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chair-img, 
+.sofa-img,
+.lamp-img,
+.decor-img {
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: 15rem;
+}
+
+.chair-img img,
+.sofa-img img,
+.lamp-img img,
+.decor-img img {
+    mix-blend-mode: multiply;
+    margin: 0.5rem 1.2rem;
+    width: 12rem;
+    height: 14rem;
+}
+
+.chair-text, 
+.sofa-text,
+.lamp-text,
+.decor-text  {
+    text-align: center;
+}
+
+.chair-text h3, 
+.sofa-text h3,
+.lamp-text h3,
+.decor-text h3 {
+    font-size: 13px;
+}
+
+.chair-text button, 
+.sofa-text button,
+.lamp-text button,
+.decor-text button {
+    margin-top: 0.5rem;
+    height: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    background: #ffda06;
+    border: 0.2px solid black;
+    color: white;
+}
+
+.chair-text button:hover, 
+.sofa-text button:hover,
+.lamp-text button:hover,
+.decor-text button:hover {
+    background: #969696;
+    cursor: pointer;
+}
+
+.chairBtn, .sofaBtn, .lampBtn, .decorBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 15px;
+    margin-bottom: 4.5rem;
+}
+
+.chairb, .sofab, .lampb, .decorb {
+    display: block;
+    background-color: #938f8f;
+    border-radius: 1rem;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+.chairb.active, 
+.sofab.active, 
+.lampb.active, 
+.decorb.active {
+    background-color: #ffda06;
+}

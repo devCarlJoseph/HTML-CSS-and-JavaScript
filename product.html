@@ -26,10 +26,36 @@
         <div class="icons">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
 
         </div>
     </header>
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        <div class="cart-content">
+            <!--
+            <div class="cart-box">
+                <img src="images/chairs/Arlo Chair.jpg" class="cart-image">
+                <div class="cart-details">
+                    <h2 class="cart-product-title">Arlo Chair</h2>
+                    <span class="cart-price">P1000</span>
+                    <div class="cart-quantity">
+                        <button id="decrement">-</button>
+                        <span class="number">1</span>
+                        <button id="increment">+</button>
+                    </div>
+                </div>
+                <i class="fa-solid fa-trash cart-remove"></i>
+            </div>
+            -->
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">P0</div>
+        </div>
+        <button class="btn-buy">Buy Now</button>
+        <i class="fa-solid fa-xmark" id="cart-close"></i>
+    </div>
     <section class="product">
         <div class="product-text">
             <h1>PRODUCTS</h1>
@@ -50,9 +76,9 @@
                     <img src="images/chairs/Arlo Chair.jpg" id="chair">
                 </div>
                 <div class="chair-text">
-                    <h1 id="cOne">Arlo Chair</h1>
-                    <h3 id="ctOne">₱2500.00</h3>
-                    <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    <h1 class="product-title" id="cOne">Arlo Chair</h1>
+                    <h3 class="product-price" id="ctOne">₱2500.00</h3>
+                    <button class="add-cart"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
                 </div>
             </div>
             <div class="main-chair">
@@ -60,9 +86,9 @@
                     <img src="images/chairs/Brix Chair.jpg" id="chairOne">
                 </div>
                 <div class="chair-text">
-                    <h1 id="cTwo">Magic Chair</h1>
-                    <h3 id="ctTwo">₱2500.00</h3>
-                    <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    <h1 class="product-title" id="cTwo">Magic Chair</h1>
+                    <h3 class="product-price" id="ctTwo">₱2500.00</h3>
+                    <button class="add-cart"><i class="fa-solid fa-cart-shopping add-cart"></i> Add To Cart</button>
                 </div>
             </div>
             <div class="main-chair">
@@ -70,9 +96,9 @@
                     <img src="images/chairs/Caden Chair.jpg" id="chairTwo">
                 </div>
                 <div class="chair-text">
-                    <h1 id="cThree">Magic Chair</h1>
-                    <h3 id="ctThree">₱2500.00</h3>
-                    <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    <h1 class="product-title" id="cThree">Magic Chair</h1>
+                    <h3 class="product-price" id="ctThree">₱2500.00</h3>
+                    <button class="add-cart"><i class="fa-solid fa-cart-shopping add-cart"></i> Add To Cart</button>
                 </div>
             </div>
             <div class="main-chair">
@@ -80,9 +106,9 @@
                     <img src="images/chairs/Cora Recliner.jpg" id="chairThree">
                 </div>
                 <div class="chair-text">
-                    <h1 id="cFour">Magic Chair</h1>
-                    <h3 id="ctFour">₱2500.00</h3>
-                    <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    <h1 class="product-title" id="cFour">Magic Chair</h1>
+                    <h3 class="product-price" id="ctFour">₱2500.00</h3>
+                    <button class="add-cart"><i class="fa-solid fa-cart-shopping add-cart"></i> Add To Cart</button>
                 </div>
             </div>
             <div class="main-chair">
@@ -90,9 +116,9 @@
                     <img src="images/chairs/Elara Seat.jpg" id="chairFour">
                 </div>
                 <div class="chair-text">
-                    <h1 id="cFive">Magic Chair</h1>
-                    <h3 id="ctFive">₱2500.00</h3>
-                    <button><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
+                    <h1 class="product-title" id="cFive">Magic Chair</h1>
+                    <h3 class="product-price" id="ctFive">₱2500.00</h3>
+                    <button class="add-cart"><i class="fa-solid fa-cart-shopping add-cart"></i> Add To Cart</button>
                 </div>
             </div>
         </div>

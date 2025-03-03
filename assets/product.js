@@ -136,6 +136,7 @@ addCartButtons.forEach(button => {
     button.addEventListener("click", event => {
         const productBox = event.target.closest(".main-chair");
         addToCart(productBox);
+        addToCart(productBoxTwo);
     });
 });
 
@@ -221,7 +222,7 @@ const updateTotalPrice = () => {
 
 let cartItemCount = 0;
 const updateCartCount = change => {
-    const cartItemCountBadge = document.querySelector(".cart-items-count");
+    const cartItemCountBadge = document.querySelector(".cart-count");
     cartItemCount += change;
     if (cartItemCount > 0) {
         cartItemCountBadge.style.visibility = "visible";

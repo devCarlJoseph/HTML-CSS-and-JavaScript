@@ -60,9 +60,27 @@ li a hr {
     color: rgb(199, 228, 255);
 }
 
+.icons {
+    position: relative;
+}
+
 .icons i {
     padding-right: 1.5rem;
     color: white;
+    cursor: pointer;
+}
+
+.cart-count {
+    position: absolute;
+    background: #ffda06;
+    border-radius: 4rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    width: 1.3rem;
+    height: 1.2rem;
+    right: 1rem;
+    bottom: .7rem;
 }
 
 .chair {
@@ -153,6 +171,7 @@ li a hr {
 
 .cart-remove {
     font-size: 25px;
+    margin-left: 4.5rem;
     cursor: pointer;
 }
 

@@ -121,10 +121,6 @@ sofaButton[3].onclick = function () {
 
 
 
-
-
-
-
 const cartIcon = document.querySelector("#cart-icon");
 const cart = document.querySelector(".cart");
 const cartClose = document.querySelector("#cart-close");
@@ -212,12 +208,13 @@ const updateTotalPrice = () => {
     let total = 0;
     cartBoxes.forEach(cartBox => {
         const priceElement = cartBox.querySelector(".cart-price");
-        const quantityElement = cart.querySelector(".number");
-        const price = priceElement.textContent.replace("P", "");
-        const quantity = quantityElement.textContent;
-        total += price * quantity;
+        const quantityElement = cartBox.querySelector(".number");
+        const price = priceElement.innerHTML.replace("$", "");
+        const quantity = quantityElement.innerHTML; 
+
+        total += price  * quantity;
     });
-    totalPriceElement.textContent = `P${total}`;
+    totalPriceElement.innerHTML = `$${total}`;
 };
 
 let cartItemCount = 0;

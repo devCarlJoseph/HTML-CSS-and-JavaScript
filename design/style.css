@@ -819,11 +819,12 @@ li a hr {
     padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 355px) {
     .header {
         background-color: rgba(37, 37, 37, 0.377);
         height: 1.5rem;
     }
+
 
     .logo img {
         mix-blend-mode: multiply;

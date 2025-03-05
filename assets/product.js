@@ -209,12 +209,13 @@ const updateTotalPrice = () => {
     cartBoxes.forEach(cartBox => {
         const priceElement = cartBox.querySelector(".cart-price");
         const quantityElement = cartBox.querySelector(".number");
-        const price = priceElement.innerHTML.replace("$", "");
+        const price = priceElement.innerHTML.replace("$", (" "));
         const quantity = quantityElement.innerHTML; 
 
         total += price  * quantity;
+        
     });
-    totalPriceElement.innerHTML = `$${total}`;
+    totalPriceElement.innerHTML = total / 2;
 };
 
 let cartItemCount = 0;

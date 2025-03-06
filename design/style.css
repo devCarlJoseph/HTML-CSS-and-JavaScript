@@ -138,6 +138,7 @@ li a hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background-color: rgba(126, 120, 120, 0.397);
     border-radius: 1rem;
     width: 30rem;
@@ -228,6 +229,7 @@ li a hr {
 .f-product {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 8rem;
 }
@@ -405,6 +407,7 @@ li a hr {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     margin-bottom: 8rem;
 }
 
@@ -819,213 +822,3 @@ li a hr {
     padding-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 355px) {
-    .header {
-        background-color: rgba(37, 37, 37, 0.377);
-        height: 1.5rem;
-    }
-
-
-    .logo img {
-        mix-blend-mode: multiply;
-        top: 5.4px;
-        left: 6.7px;
-        width: 0.87rem;
-    }
-
-    .logo h2, strong {
-        display: none;
-    }
-
-    .text ul {
-        gap: 0.8rem;
-        margin-left: 4.5rem;
-        margin-bottom: 0.2rem;
-    }
-
-    .text a {
-        color: white;
-        font-size: 10px;
-    }
-
-    .main img {
-        width: 20rem;
-        height: 12rem;
-    }
-
-    .main-text h1 {
-        font-size: 13px;
-        left: 5.7rem;
-        top: 4.7rem;
-    }
-
-    .main-text p {
-        font-size: 7px;
-        left: 5rem;
-        top: 6.6rem;
-    }
-
-    .button1 button {
-        top: 7.3rem;
-        left: 5.8rem;
-        width: 2.6rem;
-        height: 15px;
-        padding-top: 2px;
-        padding-bottom: 1px;
-        border: 1px solid white;
-        border-radius: 5px;
-        font-size: 4.5px;
-    }
-
-    .button2 button {
-        top: 7.3rem;
-        left: 8.8rem;
-        width: 2.6rem;
-        height: 15px;
-        padding-top: 2px;
-        padding-bottom: 1px;
-        border: 1px solid white;
-        border-radius: 5px;
-        font-size: 4.5px;
-    }
-
-    .one {
-        flex-direction: column;
-        margin-bottom: 1.5rem;
-    }
-
-    .s-one, .s-two, .s-three {
-        width: 15rem;
-        margin: 12px 0 0 2.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .s-one-image img, .s-two-image img, .s-three-img img {
-        width: 7rem;
-        height: 7rem;
-        padding: 4px 0 4px 5px;
-    }
-
-    .s-one-text h1, .s-two-text h1, .s-three-text h1 {
-        text-align: center;
-        font-size: 0.9rem;
-    }
-
-    .s-two-text h1, .s-three-text h1 {
-        margin-left: 1rem;
-    }
-
-    .s-one-text p, .s-two-text p, .s-three-text p {
-        font-size: 1rem;
-        margin-left: 0.5rem;
-    }
-
-    #s-one, #s-two, #s-three  {
-        font-size: 15px;
-        margin-left: 13.5px;
-    }
-
-    .text-two h1 {
-        font-size: 1rem;
-        padding-top: 3px;
-        margin-bottom: 2.5rem;
-    }
-
-    .vertical1 {
-        border-left: 2px solid rgb(255, 218, 6);
-        height: 1.5rem;
-        top: 0;
-        left: 3.5rem;
-    }
-
-    .vertical2 {
-        border-left: 2px solid rgb(255, 218, 6);
-        height: 1.5rem;
-        top: 0;
-        right: 3.5rem;
-    }
-
-    .f-product {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 8rem;
-    }
-
-    .f-product1, .f-product2, .f-product3, .f-product4, .f-product5 {
-        width: 15rem;
-        height: 17rem;
-        margin-bottom: 1rem;
-    }
-
-    .f-product-img, .f-product2-img, .f-product3-img, .f-product4-img, .f-product5-img {
-        margin-top: 1rem;
-        width: 12rem;
-        height: 10rem;
-    }
-
-    .f-product-img img, .f-product2-img img, .f-product3-img img, .f-product4-img img, .f-product5-img img {
-        margin: 0.5rem 2.1rem;
-        width: 8rem;
-        height: 9rem;
-    }
-
-    .checkbox, .scheckbox, .tcheckbox, .fcheckbox, .ftcheckbox {
-        gap: 0.3rem;
-        margin-top: 10px;
-    }
-
-    .checkb, .scheckb, .tcheckb, .fcheckb, .ftcheckb {
-        border-radius: 1rem;
-        width: 7px;
-        height: 7px;
-    }
-
-
-    .f-product-text, .f-product2-text, .f-product3-text, .f-product4-text, .f-product5-text {
-        font-size: 14px;
-    }
-
-    .f-product-text button, .f-product2-text button, .f-product3-text button, .f-product4-text button, .f-product5-text button {
-        margin-top: 0.1rem;
-        height: 18px;
-        width: 4.5rem;
-        font-size: 10px;
-        text-align: center;
-        padding: 0 0 0 5px;
-        border-radius: 1rem;
-        border: 0.1px solid black;
-    }
-
-    .five img {
-        width: 100%;
-        height: auto;
-    }
-
-    .five-main {
-        width: 90%;
-        flex-direction: column;
-    }
-
-    .five-main img {
-        width: 100%;
-        margin: 0;
-    }
-
-    .footer {
-        padding: 2rem 1rem;
-    }
-
-    .f-text {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .foot-one, .foot-two, .foot-three, .foot-four {
-        width: 100%;
-        margin: 1rem 0;
-    }
-
-    .foot-icons {
-        font-size: 2rem;
-    }
-}

@@ -563,7 +563,7 @@
 
     .button2 button {
         top: 7.8rem;
-        left: 10rem;
+        left: 10.5rem;
         height: 1rem;
         padding: 4px;
         border: 1px solid white;
@@ -578,7 +578,7 @@
 
     .s-one, .s-two, .s-three {
         width: 15rem;
-        margin-left: 2.5rem;
+        margin-left: 4.3rem;
         margin-bottom: 5px;
     }
 
@@ -614,7 +614,7 @@
 
     .text-two h1 {
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-bottom: 3.5rem;
     }
 
@@ -661,26 +661,26 @@
     }
 
     .three img {
-        width: 19.97rem;
+        width: 375px;
         height: 8rem;
     }
 
     .three-text h1 {
         top: 2rem;
-        left: 8.5rem;
+        left: 10.5rem;
         font-size: 1rem;
     }
 
     .three-text p {
         top: 3.5rem;
-        left: 1.5rem;
+        left: 3.5rem;
         font-size: 0.35rem;
         font-weight: lighter;
     }
 
     .three-button button {
         top: 4.7rem;
-        left: 8rem;
+        left: 10rem;
         padding: 2px 5px;
         height: 1rem;
         border: 3px solid white;
@@ -690,7 +690,7 @@
     }
 
     .text-four {
-        font-size: 0.85rem;
+        font-size: 1rem;
         margin-bottom: 2rem;
     }
 
@@ -702,26 +702,26 @@
     }
 
     .five img {
-        width: 19.97rem;
+        width: 375px;
         height: 7rem;
     }
 
     .five-text h1 {
         top: 1rem;
-        left: 6rem;
+        left: 8rem;
         font-size: 0.9rem;
     }
 
     .five-text p {
         top: 2.2rem;
-        left: 1rem;
-        font-size: 4.7px;
+        left: 2.4rem;
+        font-size: 5px;
     }
 
     .five-main {
         width: 17rem;
         top: 3.5rem;
-        left: 1.5rem;
+        left: 3.4rem;
         border-radius: 10px;
     }
 
@@ -795,13 +795,13 @@
     .six-vertical1 {
         height: 1.7rem;
         top: 0;
-        left: 2.9rem;
+        left: 4rem;
     }
 
     .six-vertical2 {
         height: 1.7rem;
         top: 0;
-        right: 2.9rem;
+        right: 4rem;
     }
 
     .six-text p {
@@ -811,7 +811,7 @@
 
     .blog1, .blog2 {
         margin-top: 1.3rem;
-        margin-left: 1rem;
+        margin-left: 2.8rem;
         background-color: rgb(192, 190, 188);
         height: 4.5rem;
         width: 17.97rem;
@@ -918,13 +918,13 @@
     }
 
     .eight img {
-        width: 19.97rem;
+        width: 375px;
         height: 8rem;
     }
 
     .eight-t {
         top: 3.5rem;
-        left: 2.6rem;
+        left: 4.2rem;
     }
 
     .eight-text {
@@ -960,19 +960,19 @@
     }
 
     .foot-one {
-        margin-left: 0.5rem;
+        margin-left: 1.2rem;
     }
 
     .foot-two {
-        margin-left: 1.5rem;
+        margin-left: 2.5rem;
     }
 
     .foot-three {
-        margin-left: 1.5rem;
+        margin-left: 2.7rem;
     }
 
     .foot-four {
-        margin-left: 0.9rem;
+        margin-left: 1.8rem;
     }
 
     .foot-one h3, .foot-two h3, .foot-three h3, .foot-four h3 {

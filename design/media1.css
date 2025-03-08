@@ -1,0 +1,501 @@
+@media screen and (max-width: 320px) {
+    .header {
+        background-color: rgba(92, 91, 91, 0.192);
+        height: 2rem;
+    }
+
+    .logo img {
+        top: 0.4rem;
+        left: 0.2rem;
+        width: 1.2rem;
+    }
+
+    .logo h2, strong {
+        display: none;
+    }
+
+    .text ul {
+        gap: 0.55rem;
+        margin-left: 1.3rem;
+    }
+
+    .text li {
+        margin-bottom: 6px;
+    }
+
+    .text a {
+        font-size: 0.7rem;
+    }
+
+    .icons i {
+        display: none;
+    }
+
+    .main img {
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .main-text h1 {
+        font-size: 1.2rem;
+        top: 4.2rem;
+        left: 4.4rem;
+    }
+
+    .main-text p {
+        font-size: 0.4rem;
+        top: 6.95rem;
+        left: 5.3rem;
+    }
+
+    .button1 button {
+        top: 7.6rem;
+        left: 6rem;
+        height: 1rem;
+        padding: 4px;
+        border: 1px solid white;
+        border-radius: 0.5rem;
+        font-size: 5px;
+    }
+
+    .button2 button {
+        top: 7.6rem;
+        left: 9rem;
+        height: 1rem;
+        padding: 4px;
+        border: 1px solid white;
+        border-radius: 0.5rem;
+        font-size: 5px;
+    }
+
+    .one {
+        margin-bottom: 2.5rem;
+        flex-direction: column;
+    }
+
+    .s-one, .s-two, .s-three {
+        width: 15rem;
+        margin-left: 2.5rem;
+        margin-bottom: 5px;
+    }
+
+    .s-one-image img, .s-two-image img, .s-three-img img {
+        padding-top: 1rem;
+        padding-left: 4rem;
+        width: 11rem;
+    }
+
+    .s-one-text h1, .s-two-text h1, .s-three-text h1 {
+        text-align: center;
+        margin-left: 4.2rem;
+        font-size: 15px;
+    }
+
+    .s-one-text p, .s-two-text p {
+        padding-top: 5px;
+        font-size: 0.8rem;
+        margin-left: 5.4rem;
+    }
+
+     .s-three-text p {
+        padding-top: 5px;
+        font-size: 0.8rem;
+        margin-left: 4.8rem;
+    }
+
+    #s-one, #s-two, #s-three {
+        font-size: 0.9rem;
+        padding-bottom: 10px;
+        margin-left: 5.5rem;
+    }
+
+    .text-two h1 {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .vertical1 {
+        height: 1.5rem;
+        top: 0;
+        left: 2.2rem;
+    }
+
+    .vertical2 {
+        height: 1.5rem;
+        top: 0;
+        right: 2.2rem;
+    }
+
+    .f-product, .four-product {
+        margin-bottom: 2rem;
+    }
+
+    .f-product1, .f-product2, .f-product3, .f-product4, .f-product5 {
+        box-shadow: 1px 1px 7px black;
+        width: 15rem;
+        height: 20rem;
+        margin-bottom: 2rem;
+    }
+    .f-product-img, .f-product2-img, .f-product3-img, .f-product4-img, .f-product5-img,
+    .four1-img, .four2-img, .four3-img, .four4-img, .four5-img {
+        margin-top: 1rem;
+        border-radius: 1rem;
+        width: 12rem;
+        height: 11rem;
+    }
+
+    .f-product-img img, .f-product2-img img, .f-product3-img img, .f-product4-img img, .f-product5-img img,
+    .four1-img img, .four2-img img, .four3-img img, .four4-img img, .four5-img img {
+        margin: 1rem 1.2rem;
+        width: 10rem;
+        height: 9rem;
+    }
+
+    .three {
+        margin-bottom: 2rem;
+    }
+
+    .three img {
+        width: 19.97rem;
+        height: 8rem;
+    }
+
+    .three-text h1 {
+        top: 2rem;
+        left: 8.5rem;
+        font-size: 1rem;
+    }
+
+    .three-text p {
+        top: 3.5rem;
+        left: 1.5rem;
+        font-size: 0.35rem;
+        font-weight: lighter;
+    }
+
+    .three-button button {
+        top: 4.7rem;
+        left: 8rem;
+        padding: 2px 5px;
+        height: 1rem;
+        border: 3px solid white;
+        border-radius: 1rem;
+        font-weight: lighter;
+        font-size: 8px;
+    }
+
+    .text-four {
+        font-size: 0.85rem;
+        margin-bottom: 2rem;
+    }
+
+    .four-product1, .four-product2, .four-product3, .four-product4, .four-product5 {
+        box-shadow: 1px 1px 7px black;
+        width: 15rem;
+        height: 17rem;
+        margin-bottom: 2rem;
+    }
+
+    .five img {
+        width: 19.97rem;
+        height: 7rem;
+    }
+
+    .five-text h1 {
+        top: 1rem;
+        left: 6rem;
+        font-size: 0.9rem;
+    }
+
+    .five-text p {
+        top: 2.2rem;
+        left: 1rem;
+        font-size: 4.7px;
+    }
+
+    .five-main {
+        width: 17rem;
+        top: 3.5rem;
+        left: 1.5rem;
+        border-radius: 10px;
+    }
+
+    .five-main img {
+        width: 5rem;
+        height: 6rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .five-timer {
+        margin-right: 9.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        gap: 0.5rem;
+    }
+
+    .days, .hours, .mins, .secs {
+        border-radius: 0.5rem;
+        width: 2rem;
+        height: 2.5rem;
+    }
+
+    .days h1, .hours h1, .mins h1, .secs h1 {
+        margin-top: 0.2rem;
+        font-size: 10px;
+    }
+
+    .days hr, .hours hr, .mins hr, .secs hr {
+        border: 1px solid white;
+        width: 0.9rem;
+        margin-top: 0.2rem;
+        margin-left: 0.48rem;
+    }
+
+    .days p, .hours p, .mins p, .secs p {
+        margin-top: 0.2rem;
+        font-size: 5px;
+        text-align: center;
+    }
+
+    .five-main-text h1 {
+        font-size: 7px;
+        margin-right: 9.5rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .five-main-text p {
+        font-size: 3px;
+        margin-right: 10rem;
+    }
+
+    .five-button button {
+        height: 0.8rem;
+        margin-top: 0.1rem;
+        margin-left: 3.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 5px;
+        padding: 0.1rem 4px;
+    }
+
+    .six {
+        margin-top: 6.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .six-text h1 {
+        font-size: 1.4rem;
+    }
+
+    .six-vertical1 {
+        height: 1.7rem;
+        top: 0;
+        left: 2.9rem;
+    }
+
+    .six-vertical2 {
+        height: 1.7rem;
+        top: 0;
+        right: 2.9rem;
+    }
+
+    .six-text p {
+        margin-top: 0.2rem;
+        font-size: 0.9rem;
+    }
+
+    .blog1, .blog2 {
+        margin-top: 1.3rem;
+        margin-left: 1rem;
+        background-color: rgb(192, 190, 188);
+        height: 4.5rem;
+        width: 17.97rem;
+    }
+
+    .blog1 img {
+        height: 4.5rem;
+        width: 7rem;
+    }
+
+    .blog1-text {
+        top: 0.2rem;
+        left: 6.5rem;
+        width: 11.3rem;
+        height: 4rem;
+    }
+
+    .blog1-text h1 {
+        margin-top: 0.3rem;
+        margin-bottom: 0.2rem;
+        padding-left: 0.5rem;
+        font-size: 5px;
+    }
+    
+    .blog1-text p, .blog2-text p {
+        font-size: 4px;
+        padding: 0.2rem 0.4rem 0 0.4rem;
+    }
+
+    .blog1-text button {
+        height: 0.7rem;
+        padding: 0.15rem 5px;
+        margin-left: 0.5rem;
+        margin-top: 0.1rem;
+        border-radius: 5px;
+        font-size: 4px;
+    }
+
+    .blog2 img {
+        height: 4.5rem;
+        width: 7rem;
+        margin-left: 10.98rem;
+    }
+
+    .blog2-text {
+        top: 0.25rem;
+        right: 6.5rem;
+        width: 11.3rem;
+        height: 4rem;
+    }
+
+    .blog2-text h1 {
+        margin-top: 0.25rem;
+        margin-bottom: 0.2rem;
+        padding-left: 0.5rem;
+        font-size: 5px;
+    }
+
+    .blog2-text button {
+        height: 0.7rem;
+        padding: 0.15rem 5px;
+        margin-left: 0.5rem;
+        margin-top: 0.1rem;
+        border-radius: 5px;
+        font-size: 4px;
+    }
+
+    .sev, .check, .dis {
+        margin-top: 2rem;
+        margin-bottom: 0.2rem;
+        border: 2px solid #ffda06;
+        width: 1.6rem;
+        height: 1.2rem;
+        margin-left: 2.5rem;
+    }
+
+    .sev img, .check img, .dis img {
+        margin-left: 0.2rem;
+        width: 1rem;
+    }
+
+    .delivery h1, .checkout h1, .discount h1 {
+        margin-bottom: 0.1rem;
+        font-size: 5px;
+    }
+
+    .delivery hr, .checkout hr, .discount hr {
+        border: 1px solid #ffda06;
+        width: 2.1rem;
+        margin-top: 0.3rem;
+        margin-left: 2.2rem;
+    }
+
+    .delivery p, .checkout p, .discount p {
+        margin-top: 0.2rem;
+        font-size: 5px;
+        padding: 2px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .eight {
+        margin-bottom: 1rem;
+    }
+
+    .eight img {
+        width: 19.97rem;
+        height: 8rem;
+    }
+
+    .eight-t {
+        top: 3.5rem;
+        left: 2.6rem;
+    }
+
+    .eight-text {
+        gap: 0.5rem;
+        margin-right: 2rem;
+    }
+
+    .eight-text h1 {
+        margin-top: 3px;
+        font-size: 0.5rem;
+    }
+
+    .eight-text input {
+        border-radius: 0.5rem;
+        padding: 0.2rem 0.6rem;
+        width: 8rem;
+        font-size: 4px;
+    }
+
+    .eight-text button {
+        width: 2.5rem;
+        font-size: 5px;
+    }
+
+    .f-text {
+        padding: 0.2rem 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .foot-one, .foot-two, .foot-three, .foot-four {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .foot-one {
+        margin-left: 0.5rem;
+    }
+
+    .foot-two {
+        margin-left: 1.5rem;
+    }
+
+    .foot-three {
+        margin-left: 1.5rem;
+    }
+
+    .foot-four {
+        margin-left: 0.9rem;
+    }
+
+    .foot-one h3, .foot-two h3, .foot-three h3, .foot-four h3 {
+        margin-top: 1rem;
+        font-size: 5px;
+        margin-bottom: 0.2rem;
+    }
+
+    .foot-one p, .foot-two p, .foot-three p, .foot-four p {
+        font-size: 5px;
+        padding: 0.2rem 0;
+    }
+
+    .foot-two hr {
+        border: 0.5px solid #ffda06;
+    }
+
+    .foot-icons {
+        gap: 0.2rem;
+        font-size: 0.5rem;
+        color: #ffda06;
+        margin-bottom: 0.1rem;
+    }
+
+    .last-p {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        font-size: 10px;
+    }
+
+}

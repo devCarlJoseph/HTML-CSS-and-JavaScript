@@ -116,6 +116,13 @@ sofaButton[3].onclick = function () {
 }
 //lamp
 
+lampButton[0].onclick = function () {
+    lamp.src = "images/lamp/Aurora Lamp.jpg";
+    lampOne.src = "images/lamp/Bliss Light.jpg";
+    lampTwo.src = "images/lamp/Caden Lamp.jpg";
+    lampThree.src = "images/lamp/Cosmo Light.jpg";
+    lampFour.src = "images/lamp/Eclipse Lamp.jpg"
+}
 
 
 
@@ -209,12 +216,13 @@ const updateTotalPrice = () => {
     cartBoxes.forEach(cartBox => {
         const priceElement = cartBox.querySelector(".cart-price");
         const quantityElement = cartBox.querySelector(".number");
-        const price = priceElement.innerHTML.replace("$", (" "));
+        const price = priceElement.innerHTML.replace("$",(""));
         const quantity = quantityElement.innerHTML; 
 
         total += price  * quantity;
         
     });
+    
     totalPriceElement.innerHTML = total / 2;
 };
 
